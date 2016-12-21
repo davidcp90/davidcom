@@ -10,7 +10,7 @@
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
 		border-top: 0 !important;
-
+		border: 8px solid red !important;
 		& + * {
 			border-top: 0 !important;
 		}

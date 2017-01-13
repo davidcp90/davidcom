@@ -5,7 +5,7 @@ email: davidcp90@gmail.com
 description: I want to bring peace between technology and people. They are made for each other, and I was made to make that dream come true.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "localhost" # the base hostname & protocol for your site
-author:
+author: David Camargo
 
 # Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -25,3 +25,4 @@ twitter_url:
 
 # Build settings
 markdown: kramdown
+exclude: [node_modules, theme-samples]

@@ -3,14 +3,15 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<a href="{{ "" | absolute_url }}" class="logo"><strong>DC</strong> <span>{{ site.title }}</span></a>
 	<nav>
-		<a href="#menu">Menu</a>
+		<a href="#menu"></a>
 	</nav>
 </header>
 
 <!-- Menu -->
 <nav id="menu">
+	<h3 class="logo"><strong>DC</strong> <span>{{ site.title }}</span></h3>
 	<ul class="links">
         {% for page in site.pages %}
 		    {% if page.layout == "home" %}
@@ -22,9 +23,5 @@
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
 	</ul>
 </nav>

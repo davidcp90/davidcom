@@ -7,7 +7,15 @@ image: assets/images/pic08.jpg
 author: David Camargo
 ---
 <div class="row">
-  <div class="8u">
+  <div class="4u 12u(medium)">
+    <div class="light-box">
+      <h3 class="title-about">Strengths</h3>
+      <p><span>Adaptability</span> <span>Autodidact</span> <span>Problem solver</span> <span>Abstraction</span> <span>Communication</span><span>Workgroup</span> <span>Leadership</span> <span>Creativity</span></p>
+      <h3 class="title-about">Languages and frameworks</h3>
+      <p class="bubbles"><span>Javascript</span> <span>Angular 2</span> <span>Angular.js</span> <span>Python</span> <span>Django</span><span>Php</span> <span>Laravel</span> <span>Webpack</span><span></span></p>
+    </div>
+  </div>
+  <div class="8u 12u(medium)">
     <h3 class="title-about">Experience</h3>
     <ul class="list-exp">
         <li>
@@ -47,7 +55,7 @@ author: David Camargo
         </li>
         <li>
           <h4>SOFTWARE DEVELOPER @ Shortcut Solutions</h4>
-          <p > <i>February 2011 - October 2011</i>Backend Development via EBD Framework and Frontend Development. I worked in two projects with them: Productos Arquitectónicos New Frontend and Backend and ID3 Frontend and Backend.</p>
+          <p > <i>February 2011 - October 2011</i> Backend Development via EBD Framework and Frontend Development. I worked in two projects with them: Productos Arquitectónicos and ID3, both of them covering Frontend and Backend.</p>
         </li>
         <li>
           <h4>SOFTWARE DEVELOPER @ Cronopios Comunicaciones</h4>
@@ -55,14 +63,6 @@ author: David Camargo
         </li>
 
     </ul>
-  </div>
-  <div class="4u">
-    <div class="light-box">
-      <h3 class="title-about">Strengths</h3>
-      <p><span>Adaptability</span> <span>Autodidact</span> <span>Problem solver</span> <span>Abstraction</span> <span>Communication</span><span>Workgroup</span> <span>Leadership</span> <span>Creativity</span></p>
-      <h3 class="title-about">Languages and frameworks</h3>
-      <p class="bubbles"><span>Javascript</span> <span>Angular 2</span> <span>Angular.js</span> <span>Python</span> <span>Django</span><span>Php</span> <span>Laravel</span> <span>Webpack</span><span></span></p>
-    </div>
   </div>
 </div>
 

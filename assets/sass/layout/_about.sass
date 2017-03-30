@@ -12,6 +12,17 @@
 
 .about-head
   padding-right: 3em
+  +breakpoint(small)
+  +breakpoint(small)
+    width: 50% !important
+    margin: 0 auto 0 auto
+    text-align: center
+    float: none
+    padding-right: 0
+    position: relative
+    top: 20px
+  +breakpoint(xsmall)
+    width: 70% !important
   h1
     line-height: 1em
     letter-spacing: 12px
@@ -33,6 +44,8 @@
   margin-left: auto
   margin-right: auto
   width: 128px !important
+  +breakpoint(small)
+    float: none
 .circle
   width: 95%
   border-radius: 50%
@@ -95,6 +108,13 @@
   .items
     margin-left: 20px
     list-style-type: circle
+.img-responsive
+  display: block
+  clear: both
+  width: 100%
+  height: auto
+.img-box
+  margin-bottom: 40px
 .light-box
     background-color: #fff
     -webkit-box-shadow: 0 3px 0 0 #f0f2f4

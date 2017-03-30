@@ -9,10 +9,22 @@ author: David Camargo
 <div class="row">
   <div class="4u 12u(medium)">
     <div class="light-box">
+        <h3 class="title-about">Who am I?</h3>
+  <p>I am David Camargo, Human Oriented Engineer. I love learn new things and teaching that to other people. My purpose as a software engineer is to bring peace between technology and people. they are made for each other, and i was made to make that dream come true.This is not only because I know the problems that some people suffer with technology, but because I was made to make beautiful , usable and awesome products that enable humankind to reach its full potential through technology. I call myself a ‘Human Oriented Engineer’ because I am more than a developer or a software engineer; I have the academic background and the work experience to think in a holistic way which allows me to achieve different challenges in business, technology and user experience.<br/>
+
+I spent the last 8 years working in different projects, technologies and companies. Through all of these experiences, I have had the opportunity to collect strong front & back end development background and a mind to develop beautiful and usable products.</p>
+  <h3 class="title-about">WHAT I WANT?</h3>
+  <p>I want to apply all my knowledge and face new challenges in software enginering and product development with my mind focus on create my own company in the future.</p>
       <h3 class="title-about">Strengths</h3>
-      <p><span>Adaptability</span> <span>Autodidact</span> <span>Problem solver</span> <span>Abstraction</span> <span>Communication</span><span>Workgroup</span> <span>Leadership</span> <span>Creativity</span></p>
-      <h3 class="title-about">Languages and frameworks</h3>
-      <p class="bubbles"><span>Javascript</span> <span>Angular 2</span> <span>Angular.js</span> <span>Python</span> <span>Django</span><span>Php</span> <span>Laravel</span> <span>Webpack</span><span></span></p>
+      <p><span>Adaptability</span> <span>Autodidact</span> <span>Problem solver</span> <span>Abstraction</span> <span>Communication</span><span>Team player</span> <span>Leadership</span> <span>Creativity</span></p>
+      <h3 class="title-about">Tech Experience</h3>
+      <p><span><strong class="black">Languages:</strong> Javascript/Typescript, Python, Ruby, Php, Html, Css, Java</span></p>
+       <p><span><strong class="black">Frameworks:</strong> Angular (1 - ∞), React, Backbone.js, Jquery?, SASS, Django, Laravel, Express.js, Strongloop.js, Codeigniter, CakePhp, Rails</span></p>
+      <p><span><strong class="black">Dev utils:</strong> Git, Webpack, Grunt, Gulp, JPA, Celery, Supervisor, RabbitMQ, Docker, Vagrant, Swagger, API Blueprint</span></p>
+    </div>
+    <div>
+      <img class="img-responsive img-box" src="{{ '/assets/images/blackberry.png ' | absolute_url }}" alt="Blackberry best app">
+      <img class="img-responsive" src="{{ '/assets/images/c1-english.png ' | absolute_url }}" alt="C1 English">
     </div>
   </div>
   <div class="8u 12u(medium)">

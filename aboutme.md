@@ -2,8 +2,8 @@
 layout: about
 title: About me
 landing-title: 'About me'
-description: Work experience, skills, projects, etc
-image: assets/images/pic08.jpg
+description: Who am I?, What I want?, Experience ...
+image: assets/images/banner-adri.jpg
 author: David Camargo
 ---
 <div class="row">
@@ -30,9 +30,13 @@ I spent the last 8 years working in different projects, technologies and compani
   <div class="8u 12u(medium)">
     <h3 class="title-about">Experience</h3>
     <ul class="list-exp">
+            <li>
+          <h4>SENIOR FRONTEND DEVELOPER @ Torre</h4>
+          <p><i>February 2016 - Current</i> At Torre I am part of Keplerr, one of the research groups of the company as a team we are trying to find and develop the next product that could make work fulfilling for everyone, as an individual I contribute to that goal proposing experiments over products and develop those experiments. We use multiple methodologies, including design sprints, developed by Google, braintrusts, developed by Pixar, do things that don't scale, proposed by YCombinator, and discovery sprints, developed by us. As frontend developer I am using the last version of angular, webpack, sass and typescript to build the experiments connected to our API in scala.</p>
+        </li>
         <li>
           <h4>FULL STACK DEVELOPER @ Tutorya</h4>
-          <p>August 2013 - November 2015 Frontend and backend developer and team member of this amazing startup. I worked with Django, PostgreSQL, Redis, HTML5, Angular.js, Backbone, Sass, jQuery and another bunch of powerful tools.</p>
+          <p><i>August 2013 - November 2015</i> Frontend and backend developer and team member of this amazing startup. I worked with Django, PostgreSQL, Redis, HTML5, Angular.js, Backbone, Sass, jQuery and another bunch of powerful tools.</p>
         </li>
         <li>
           <h4>PRODUCT MANAGER @ Tutorya</h4>

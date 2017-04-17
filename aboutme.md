@@ -27,7 +27,8 @@ I spent the last 8 years working in different projects, technologies and compani
       <img class="img-responsive" src="{{ '/assets/images/c1-english.png ' | absolute_url }}" alt="C1 English">
     </div>
   </div>
-  <div class="8u 12u(medium)">
+  
+  <div class="8u 12u(medium) margin-top-40-xs-md">
     <h3 class="title-about">Experience</h3>
     <ul class="list-exp">
             <li>

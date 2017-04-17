@@ -13,7 +13,6 @@ body
   html, body
     min-width: 320px
 
-
 body
   background: _palette(bg)
 
@@ -23,3 +22,7 @@ body
     *, *:before, *:after
       +vendor("animation", "none !important")
       +vendor("transition", "none !important")
+
+.margin-top-40-xs-md
+  @media screen and (max-width: 981px)
+    margin-top: 40px !important

@@ -2,7 +2,7 @@
 @import 'libs/functions'
 @import 'libs/mixins'
 @import 'libs/skel'
-@import '../css/font-awesome.min.css'
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono|Alegreya+Sans:400,400i,500,500i|Libre+Baskerville:400,400i,700');
 
@@ -23,7 +23,17 @@
 
       width: calc(100% - 3em)
 
+.clearfix:after
+  visibility: hidden
+  display: block
+  font-size: 0
+  content: " "
+  clear: both
+  height: 0
 
+*
+  html .clearfix, &:first-child + html .clearfix
+    zoom: 1
 
 
 // Base.
